@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: 'renogareregular';
+    src: url('renogare-regular-webfont.woff2') format('woff2'),
+         url('renogare-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: renogareregular, sans-serif;
+}
