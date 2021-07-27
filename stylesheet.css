@@ -15,3 +15,12 @@ body {
 	background-color: #2C2F33;
 	word-wrap: break-word;
 }
+
+.slashes {
+	font-size: 10vw;
+	text-align: center;
+}
+
+.pink {
+	color: #eb81b4;
+}
