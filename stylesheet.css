@@ -24,3 +24,8 @@ body {
 .pink {
 	color: #eb81b4;
 }
+
+.wip {
+	font-size: 2vw;
+	text-align: center;
+}
