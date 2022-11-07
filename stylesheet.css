@@ -6,13 +6,21 @@
          url('renogare-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@font-face {
+    font-family: 'TerminusTTF';
+    src: url('TerminusTTF-Bold.woff2') format('woff2'),
+         url('TerminusTTF-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
     font-family: renogareregular, sans-serif;
 	color: #7289DA;
-	background-color: #2C2F33;
+	background-color: #23272a;
 	word-wrap: break-word;
 }
 
@@ -34,4 +42,34 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50vw;
 }
+
+p {
+	font-family: TerminusTTF, sans-serif;
+	text-align: center;
+	line-height: 0.5;
+}
+
+.linklist {
+	font-size: 35px;
+	font-family: TerminusTTF, sans-serif;
+	text-align: center;
+	/* line-height: 0.5; */
+}
+
+a:link {
+	color: #7289DA;
+  }
+  
+  a:visited {
+	color: #7289DA;
+  }
+  
+  a:hover {
+	color: #EB81B4;
+  }
+  
+  a:active {
+	color: #EB81B4;
+  }
